@@ -2,7 +2,7 @@ const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const weatherInfo = document.getElementById('weather-info');
 
-const apiKey = '9e5abeec2882b0f7a018c01ed3df33b1';;
+const apiKey = '9e5abeec2882b0f7a018c01ed3df33b1';
 
 searchBtn.addEventListener('click', () => {
   const city = searchInput.value;
